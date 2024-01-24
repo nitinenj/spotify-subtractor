@@ -80,7 +80,7 @@ while (count < count_mandatory or want_another_song):
 
             if(count >= count_mandatory):
                 str_input = input('ADD ANOTHER PLAYLIST FILTER? y/n: ').strip()
-                if(str_input.capitalize == 'Y'):
+                if(str_input == 'y'):
                     want_another_song = True
                 else:
                     want_another_song = False
